@@ -10,234 +10,128 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>Hover</h1>
+                        <h1>Huduma</h1>
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href={'https://hover.gg/'}
+                            href={'https://www.hudumakenya.go.ke/'}
                         >
-                            <h4>www.hover.gg</h4>
+                            <h4>www.hudumakenya.go.ke</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Frontend Engineer</h3>
+                        <h3>ICT Attachee</h3>
                         <b>
-                            <p>Summer 2020 - Fall 2021</p>
+                            <p>May 2025 - August 2025</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
                 <p>
-                    Targeted towards online content creators and streamers
-                    looking to build a brand, Hover is the home of over 150K
-                    users. Written in Typescript using React, React-Native,
-                    Framer, Express, and Redux.
+                    Based in Nairobi, Kenya, Huduma Kenya Centre (GPO) is a government service hub 
+                    integrating multiple agencies to provide citizens with streamlined access to 
+                    public services. As an ICT Attaché from May to August 2025, I provided 
+                    technical support and contributed to the maintenance and optimization of the 
+                    Centre’s IT infrastructure.
                 </p>
                 <br />
                 <ul>
                     <li>
-                        <p>
-                            Architected and engineered the vertical scrolling
-                            discover player which, at its daily peak, was
-                            responsible for generating over 600,000 views across
-                            20,000 active users.
-                        </p>
+                    <p>
+                        Delivered first-line user support and troubleshooting for both staff and 
+                        service desks across multiple government agencies, efficiently diagnosing 
+                        and resolving hardware, software, and network-related issues.
+                    </p>
                     </li>
                     <li>
-                        <p>
-                            Designed and implemented multiple features to
-                            increase app usability and user experience while
-                            ensuring the quality, maintainability and
-                            scalability of the front end as the user base grew
-                            by over 50,000.
-                        </p>
+                    <p>
+                        Assisted in network and systems maintenance by performing switch port 
+                        patching, VLAN assignments, and basic configuration checks while tracing 
+                        network cables and addressing connectivity issues through diagnostics.
+                    </p>
                     </li>
                     <li>
-                        <p>
-                            Coordinated major refactors targeted towards app
-                            optimization and performance resulting in a smoother
-                            user experience and accomplished by eliminating
-                            redundant re-renders and API calls by over 50%.
-                        </p>
+                    <p>
+                        Supported virtualization operations by helping users access Citrix-hosted 
+                        virtual desktops and applications, resolving login errors, session 
+                        timeouts, and printer redirection challenges within the virtual workspace.
+                    </p>
                     </li>
                     <li>
-                        <p>
-                            Directed and executed an internal migration of 3
-                            individual repositories to a single monorepo,
-                            greatly reducing overhead for developing new
-                            features, fixing bugs, and managing dependencies.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Rebuilt the website with React and shared mobile app
-                            components allowing users to access a wide variety
-                            of app interactions entirely on the web, resulting
-                            in over 700,000 total site visits.
-                        </p>
+                    <p>
+                        Contributed to ICT asset management by tagging, tracking, and documenting 
+                        all ICT equipment to maintain an accurate inventory and ensure devices 
+                        remained operational and up-to-date.
+                    </p>
                     </li>
                 </ul>
             </div>
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>BrACS</h1>
+                        <h1>FRS Africa</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://bracs.co/'}
+                            href={'https://frsafrica.com/'}
                         >
-                            <h4>www.bracs.co</h4>
+                            <h4>www.frsafrica.com</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Team Lead & Engineer</h3>
+                        <h3>Software Developer Intern</h3>
                         <b>
-                            <p>Fall 2021 - Spring 2022</p>
+                            <p>April 2023 - September 2023</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
-                <p>
-                    Supervised and developed the front end of bracs.co, a
-                    beautifully simple and effective bracket creation and
-                    management engine. Written in Typescript using React and
-                    deployed using AWS Elastic Beanstalk.
-                </p>
-                <br />
-                <ul>
-                    <li>
+                <div className="text-block">
+                    <p>
+                        Focused on backend data engineering and automation, this role involved 
+                        developing efficient data collection and integration systems using Django, 
+                        BeautifulSoup, and Scrapy to support internal applications and analytics.
+                    </p>
+                    <br />
+                    <ul>
+                        <li>
                         <p>
-                            Managed the project and team members by conducting
-                            bi-weekly stand-ups.
+                            Developed and optimized web scraping scripts using Django and 
+                            BeautifulSoup/Scrapy to extract and structure data from diverse online 
+                            sources with high accuracy.
                         </p>
-                    </li>
-                    <li>
+                        </li>
+                        <li>
                         <p>
-                            Architected bracket view UI using React Flow and
-                            custom bracket data types built from binary trees.
+                            Designed and implemented RESTful APIs to seamlessly integrate scraped data 
+                            into internal applications, ensuring smooth communication across services.
                         </p>
-                    </li>
-                    <li>
+                        </li>
+                        <li>
                         <p>
-                            Created conversion algorithms to serialize bracket
-                            tree data to allow for saving in the cloud.
+                            Automated end-to-end data processing pipelines to enhance efficiency and 
+                            reduce manual intervention in data handling workflows.
                         </p>
-                    </li>
-                    <li>
+                        </li>
+                        <li>
                         <p>
-                            Implemented bracket generation utilities which
-                            employ gray code for proper team seeding and
-                            placement.
+                            Contributed to backend development efforts including database schema design, 
+                            data validation, and detailed API documentation for maintainability.
                         </p>
-                    </li>
-                </ul>
-            </div>
-            <div style={styles.headerContainer}>
-                <div style={styles.header}>
-                    <div style={styles.headerRow}>
-                        <h1>K-F/X</h1>
-                        <a
-                            target="_blank"
-                            rel="noreferrer"
-                            href={'https://kfxnyc.com/'}
-                        >
-                            <h4>www.kfxnyc.com</h4>
-                        </a>
+                        </li>
+                        <li>
+                        <p>
+                            Collaborated closely with cross-functional developers to improve data 
+                            integrity, implement access controls, and strengthen security measures 
+                            across all data layers.
+                        </p>
+                        </li>
+                    </ul>
                     </div>
-                    <div style={styles.headerRow}>
-                        <h3>Special Effects Technician</h3>
-                        <b>
-                            <p>Fall 2019, Summer 2021</p>
-                        </b>
-                    </div>
-                </div>
             </div>
-            <div className="text-block">
-                <p>
-                    Applied problem solving and technical skills to operate
-                    large equipment such as rain machines, fog machines, small
-                    explosives and general rigging with a professional crew of
-                    50+ people.
-                </p>
-                <br />
-                <h3 style={styles.indent}>Screen Credits:</h3>
-                <ul>
-                    <li style={styles.row}>
-                        <p>• Ray Donovan</p>
-                        <p>
-                            [{' '}
-                            <a
-                                href="https://www.sho.com/ray-donovan"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                SHOWTIME
-                            </a>{' '}
-                            ]
-                        </p>
-                    </li>
-                    <li style={styles.row}>
-                        <p>• Ray Donovan: The Movie</p>
-                        <p>
-                            [{' '}
-                            <a
-                                href="https://www.sho.com/titles/3508117/ray-donovan-the-movie"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                SHOWTIME
-                            </a>{' '}
-                            ]
-                        </p>
-                    </li>
-                    <li style={styles.row}>
-                        <p>• Hightown</p>
-                        <p>
-                            [{' '}
-                            <a
-                                href="https://www.starz.com/us/en/series/hightown/57463"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                STARZ
-                            </a>{' '}
-                            ]
-                        </p>
-                    </li>
-                    <li style={styles.row}>
-                        <p>• Bull</p>
-                        <p>
-                            [{' '}
-                            <a
-                                href="https://www.cbs.com/shows/bull/"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                CBS
-                            </a>{' '}
-                            ]
-                        </p>
-                    </li>
-                    <li style={styles.row}>
-                        <p>• At Home with Amy Sedaris</p>
-                        <p>
-                            [{' '}
-                            <a
-                                href="https://www.trutv.com/shows/at-home-with-amy-sedaris"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                truTV
-                            </a>{' '}
-                            ]
-                        </p>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        </div>    
     );
 };
 

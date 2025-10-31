@@ -12,13 +12,13 @@ const About: React.FC<AboutProps> = (props) => {
         <div className="site-page-content">
             {/* <img src={me} style={styles.topImage} alt="" /> */}
             <h1 style={{ marginLeft: -16 }}>Welcome</h1>
-            <h3>I'm Henry Heffernan</h3>
+            <h3>I'm Daniel-Caleb Cheruiyot</h3>
             <br />
             <div className="text-block">
                 <p>
-                    I'm a software engineer currently working at Vercel! In May
-                    of 2022 I graduated from Rensselaer Polytechnic Institute
-                    with my BS in Computer Science.
+                    I am a motivated and detail-oriented technology enthusiast, 
+                    bachelor's degree graduand in Information Security and Forensics from KCA University. 
+                    I am an avid learner with keen interest in networking and cloud infrastructure security.
                 </p>
                 <br />
                 <p>
@@ -27,8 +27,8 @@ const About: React.FC<AboutProps> = (props) => {
                     building it. If you have any questions or comments, feel
                     free to contact me using{' '}
                     <Link to="/contact">this form</Link> or shoot me an email at{' '}
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:cheruiyotdanielcaleb@gmail.com">
+                        cheruiyotdanielcaleb@gmail.com
                     </a>
                 </p>
             </div>
